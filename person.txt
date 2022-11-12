@@ -1,0 +1,10 @@
+_id,_name,_phone_number
+1,Ioana Moldovan,0734987665
+2,Simona Motoc,0789663421
+3,Anda Pop,0789997221
+4,Cezar Maniu,0709421443
+5,Dan Negru,0750998211
+6,Iulia Marin,0711345208
+7,Ioana Popescu,0799612008
+8,ioana,009
+10,ana,09999
