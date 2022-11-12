@@ -1,16 +1,8 @@
 # Activity Planner
-
-### For week 8 (25% of grade)
-- Implement features 1 and 2
-- Have at least 10 procedurally generated items in your application at startup
-- Provide specification and tests for all non-UI classes and methods for the first functionality
-- Implement and use your own exception classes.
-
-## Bonus possibility (0.1p, deadline week 10)
-- 95% unit test code coverage for all modules except the UI (use *PyCharm Professional*, the *[coverage](https://coverage.readthedocs.io/en/coverage-5.3/)* or other modules)
+A personal activity planner.
 
 ---
-### 5. Activity Planner
+### Tasks
 The following information is stored in a personal activity planner:
 - **Person**: `person_id`, `name`, `phone_number`
 - **Activity**: `activity_id`, `person_id` - list, `date`, `time`, `description`
@@ -24,3 +16,5 @@ Create an application to:
     - Busiest days. This will provide the list of upcoming dates with activities, sorted in descending order of the free time in that day (all intervals with no activities).
     - Activities with a given person. List all upcoming activities to which a given person will participate.
 5. Unlimited undo/redo functionality. Each step will undo/redo the previous operation performed by the user. Undo/redo operations must cascade and have a memory-efficient implementation (no superfluous list copying).
+6. Implement and use your own exception classes.
+7. 95% unit test code coverage for all modules except the UI.
